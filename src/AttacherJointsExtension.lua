@@ -14,33 +14,16 @@ function AttacherJointsExtension.initSpecialization()
     Vehicle.registerStateChange("UNFOLD_ALL_IMPLEMENTS")
 end
 
-function AttacherJointsExtension.prerequisitesPresent(specializations)
+function AttacherJointsExtension.prerequisitesPresent(_)
     return true
 end
 
-function AttacherJointsExtension.registerEvents(vehicleType)
-end
-
-function AttacherJointsExtension.registerFunctions(vehicleType)
-    --SpecializationUtil.registerFunction(vehicleType, "getHasAttacherJointsExtension", AttacherJointsExtension.getHasAttacherJointsExtension)
-end
-
 function AttacherJointsExtension.registerEventListeners(vehicleType)
-    SpecializationUtil.registerEventListener(vehicleType, "onPreLoad", AttacherJointsExtension)
-    SpecializationUtil.registerEventListener(vehicleType, "onPostLoad", AttacherJointsExtension)
     SpecializationUtil.registerEventListener(vehicleType, "onRegisterActionEvents", AttacherJointsExtension)
     SpecializationUtil.registerEventListener(vehicleType, "onStateChange", AttacherJointsExtension)
 end
 
-function AttacherJointsExtension:onPreLoad(savegame)
-    local spec = self[AttacherJointsExtension.SPEC_TABLE_NAME]
-end
-
-function AttacherJointsExtension:onPostLoad(savegame)
-    local spec = self[AttacherJointsExtension.SPEC_TABLE_NAME]
-end
-
-function AttacherJointsExtension:onRegisterActionEvents(isActiveForInput, isActiveForInputIgnoreSelection)
+function AttacherJointsExtension:onRegisterActionEvents(_, isActiveForInputIgnoreSelection)
     if self.isClient then
         local spec = self[AttacherJointsExtension.SPEC_TABLE_NAME]
         self:clearActionEventsTable(spec.actionEvents)
@@ -57,7 +40,7 @@ function AttacherJointsExtension:onRegisterActionEvents(isActiveForInput, isActi
     end
 end
 
-function AttacherJointsExtension:onStateChange(state, data)
+function AttacherJointsExtension:onStateChange(state)
     if state == Vehicle.STATE_CHANGE_TURN_ON_ALL_IMPLEMENTS then
         if self.getCanToggleTurnedOn ~= nil then
             TurnOnVehicle.actionEventTurnOn(self)

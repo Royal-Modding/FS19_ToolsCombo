@@ -8,17 +8,26 @@
 	<description>
 		<en>
 			<![CDATA[
-En description
+This mod allows you to turn on / off and to fold / unfold all the implements attached to your tractor at the same time with a single action button.
+Press LCTRL + B to turn on or off all the implements that supports it.
+Press LCTRL + X to unfold or fold all the implements that supports it.
+Both buttons are configurable from the input settings tab of game menù.
 ]]>
 		</en>
 		<de>
 			<![CDATA[
-De description
+Mit diesem Mod können Sie alle an Ihrem Traktor angebrachten Anbaugeräte gleichzeitig mit einer einzigen Aktionstaste ein- und ausschalten sowie ein- und ausklappen.
+Drücken Sie LCTRL + B, um alle Anbaugeräte, die es unterstützt, ein- oder auszuschalten.
+Drücken Sie LCTRL + X, um alle Anbaugeräte, die dies unterstützen, aus- oder einzuklappen.
+Beide Tasten sind auf der Registerkarte "Eingabeeinstellungen" des Spielmenüs konfigurierbar.
 ]]>
 		</de>
 		<fr>
 			<![CDATA[
-Fr description
+Ce mode vous permet d'allumer / éteindre et de replier / déplier tous les outils attachés à votre tracteur en même temps avec un seul bouton d'action.
+Appuyez sur LCTRL + B pour allumer ou éteindre tous les outils qui le supportent.
+Appuyez sur LCTRL + X pour déplier ou replier tous les outils qui le supportent.
+Les deux boutons sont configurables à partir de l'onglet "Paramètres d'entrée" du menu du jeu.
 ]]>
 		</fr>
 	</description>
@@ -51,75 +60,11 @@ Fr description
 	<l10n>
 		<text name="input_TOOLSCOMBO_TURN_ON_ALL_IMPLEMENTS">
 			<en>Turn on / off all implements</en>
+			<de>Alle Geräte ein-/ausschalten</de>
 		</text>
 		<text name="input_TOOLSCOMBO_UNFOLD_ALL_IMPLEMENTS">
 			<en>Unfold / Fold all implements</en>
+			<de>Alle Geräte ausklappen / einklappen</de>
 		</text>
 	</l10n>
 </modDesc>
-
-<!--
-	<storeItems>
-		<storeItem xmlFilename="storeItem.xml" />
-	</storeItems>
-
-	<specializations>
-		<specialization name="specName" className="SpecClass" filename="specName.lua" />
-	</specializations>
-
-	<vehicleTypes>
-		<type name="typeName" parent="baseDrivable" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
-			<specialization name="specName" />
-		</type>
-	</vehicleTypes>
-
-	<actions>
-		<action name="ACTION_NAME" axisType="HALF" />
-	</actions>
-
-	<inputBinding>
-		<actionBinding action="ACTION_NAME">
-			<binding device="KB_MOUSE_DEFAULT" input="KEY_f" />
-		</actionBinding>
-	</inputBinding>
-
-	<jointTypes>
-		<jointType name="jointTypeName" />
-	</jointTypes>
-
-	<brands>
-		<brand name="BRAND" title="Brand" image="brand_brand.png" />
-	</brands>
-
-	<brandColors>
-		<color name="BRAND_RED1" value="0.4508 0.0176 0.0232 0" />
-	</brandColors>
-
-	<placeableTypes>
-		<placeableType name="placeableTypeName" className="PlaceableTypeClass" filename="placeableType.lua" />
-	</placeableTypes>
-
-	<materialHolders>
-		<materialHolder filename="particleSystems/particle_materialHolder.i3d" />
-	</materialHolders>
-
-	<baleTypes>
-		<baleType filename="objects/roundbales/roundbaleBio.i3d" fillType="WOODCHIPS" isRoundbale="true" width="1.12" diameter="1.3" />
-	</baleTypes>
-
-	<connectionHoseTypes>
-		<connectionHoseType name="connectionHoseName">
-			<adapter name="DEFAULT" filename="shared/connectionHoses/connectors.i3d" node="0|0" />
-			<material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0.5" uvScale="2 1" />
-		</connectionHoseType>
-	</connectionHoseTypes>
-
-	l10n/l10n_en.xml, l10n/l10n_de.xml, l10n/l10n_it.xml, ...
-	<l10n filenamePrefix="l10n/l10n" />
-
-	<l10n>
-		<text name="text_key">
-			<en>Text</en>
-		</text>
-	</l10n>
--->
