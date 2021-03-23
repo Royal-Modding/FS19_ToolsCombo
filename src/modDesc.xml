@@ -30,6 +30,14 @@ Appuyez sur LCTRL + X pour déplier ou replier tous les outils qui le supportent
 Les deux boutons sont configurables à partir de l'onglet "Paramètres d'entrée" du menu du jeu.
 ]]>
 		</fr>
+		<ru>
+			<![CDATA[
+Этот мод позволяет включать/выключить и сворачивать/разворачивать все орудия, прикрепленные к вашему трактору одновременно с помощью нажатия одной комбинации клавиш.
+Нажмите LCTRL + B, чтобы включить или выключить все орудия, которые поддерживают это.
+Нажмите LCTRL + X, чтобы развернуть или сложить все орудия, которые поддерживают это.
+Обе комбинации клавиш настраиваются на соответственной вкладке настроек меню игры.
+]]>
+		</ru>
 	</description>
 	<multiplayer supported="true" />
 	<iconFilename>icon.png</iconFilename>
@@ -61,10 +69,12 @@ Les deux boutons sont configurables à partir de l'onglet "Paramètres d'entrée
 		<text name="input_TOOLSCOMBO_TURN_ON_ALL_IMPLEMENTS">
 			<en>Turn on / off all implements</en>
 			<de>Alle Geräte ein-/ausschalten</de>
+			<ru>ВКЛ/ВЫКЛ всё оборудование</ru>
 		</text>
 		<text name="input_TOOLSCOMBO_UNFOLD_ALL_IMPLEMENTS">
 			<en>Unfold / Fold all implements</en>
 			<de>Alle Geräte ausklappen / einklappen</de>
+			<ru>Слож/Разлож. всё оборудование</ru>
 		</text>
 	</l10n>
 </modDesc>
