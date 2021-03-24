@@ -68,11 +68,13 @@ Les deux boutons sont configurables à partir de l'onglet "Paramètres d'entrée
 	<l10n>
 		<text name="input_TOOLSCOMBO_TURN_ON_ALL_IMPLEMENTS">
 			<en>Turn on / off all implements</en>
+			<fr>Allumer / Eteindre tous les outils</fr>
 			<de>Alle Geräte ein-/ausschalten</de>
 			<ru>ВКЛ/ВЫКЛ всё оборудование</ru>
 		</text>
 		<text name="input_TOOLSCOMBO_UNFOLD_ALL_IMPLEMENTS">
 			<en>Unfold / Fold all implements</en>
+			<fr>Déplier / Replier tous les outils</fr>
 			<de>Alle Geräte ausklappen / einklappen</de>
 			<ru>Слож/Разлож. всё оборудование</ru>
 		</text>
