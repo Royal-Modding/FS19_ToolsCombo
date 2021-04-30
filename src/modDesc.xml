@@ -71,12 +71,14 @@ Les deux boutons sont configurables à partir de l'onglet "Paramètres d'entrée
 			<fr>Allumer / Eteindre tous les outils</fr>
 			<de>Alle Geräte ein-/ausschalten</de>
 			<ru>ВКЛ/ВЫКЛ всё оборудование</ru>
+			<pl>Włącz/Wyłącz wszystie narzędzia</pl>
 		</text>
 		<text name="input_TOOLSCOMBO_UNFOLD_ALL_IMPLEMENTS">
 			<en>Unfold / Fold all implements</en>
 			<fr>Déplier / Replier tous les outils</fr>
 			<de>Alle Geräte ausklappen / einklappen</de>
 			<ru>Слож/Разлож. всё оборудование</ru>
+			<pl>Rozłóż/Złóż wszystkie narzędzia</pl>
 		</text>
 	</l10n>
 </modDesc>
